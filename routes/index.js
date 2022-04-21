@@ -1,6 +1,6 @@
 const routes = require('express').Router()
-const jokes = require('../controllers')
+const controller = require('../controllers')
 
-routes.get('/', jokes.displayJoke)
+routes.get('/', controller.displayName)
 
 module.exports = routes
